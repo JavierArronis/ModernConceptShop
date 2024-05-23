@@ -21,3 +21,6 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  
+  
+  # This is a trigger for the GitHub Actions workflow
