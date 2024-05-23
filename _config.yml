@@ -23,5 +23,4 @@ exclude:
   - vendor
   
   
-# This is a trigger for the GitHub Actions workflow
 
