@@ -28,6 +28,12 @@ jobs:
       - name: Build the site
         run: bundle exec jekyll build
 
+      - name: Debug git status
+        run: |
+          git status
+          git log -n 5
+          ls -al
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
