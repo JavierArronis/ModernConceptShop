@@ -222,10 +222,23 @@ header {
     }
 }
 
+.image-row {
+    margin-top: 20px; /* Add space between black band and award images. Adjust the value as needed */
+}
+
+.portfolio-box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 650px;
+    width: 100%;
+    height: 100%;
+}
+
 .portfolio-box {
     position: relative;
     display: block;
-    max-width: 650px;
+    max-width: 100%;
     margin: 0 auto;
     .portfolio-box-caption {
         color: white;
