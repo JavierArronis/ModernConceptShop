@@ -6,8 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, empty for the root
 url: "https://themodernconcept.shop" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: modconceptshop
 
 # Build settings
 plugins:

@@ -69,6 +69,22 @@ aside {
 
 // Navigation
 
+/* Specific styles for the blog navigation bar */
+#mainNav.navbar-default {
+    background-color: #fff; /* Set the background color to white or any other color */
+    border-color: #e7e7e7; /* Border color */
+}
+
+#mainNav.navbar-default .navbar-brand,
+#mainNav.navbar-default .navbar-nav > li > a {
+    color: #333; /* Set the text color to dark */
+}
+
+#mainNav.navbar-default .navbar-brand:hover,
+#mainNav.navbar-default .navbar-nav > li > a:hover {
+    color: #555; /* Set the text color for hover state */
+}
+
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
@@ -145,6 +161,11 @@ aside {
             }
         }
     }
+}
+
+/* Add padding only for content pages to prevent navbar overlap */
+body.content-page {
+    padding-top: 70px; /* Adjust the value to match the height of your navbar */
 }
 
 // Homepage Header
