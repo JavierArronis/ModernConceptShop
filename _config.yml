@@ -1,10 +1,10 @@
 # Site settings
 title: The Modern Concept Shop
-email: your-email@example.com
+email: laura@themodernconcept.shop
 description: >- # this means to ignore newlines until "baseurl:"
-  The Modern Concept Shop is a cutting-edge marketing agency providing innovative solutions.
-baseurl: "/ModernConceptShop" # the subpath of your site, e.g. /blog
-url: "https://JavierArronis.github.io" # the base hostname & protocol for your site
+  The Modern Concept Shop helps B2B companies learn how to treat people like human beings rather than line items on a lead spreadsheet.
+baseurl: "" # the subpath of your site, empty for the root
+url: "https://themodernconcept.shop" # the base hostname & protocol for your site
 
 twitter_username:
 github_username:
