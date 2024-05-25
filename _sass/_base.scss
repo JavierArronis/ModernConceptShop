@@ -70,18 +70,18 @@ aside {
 // Navigation
 
 /* Specific styles for the blog navigation bar */
-.nav-blog {
+#mainNav.navbar-default {
     background-color: #fff; /* Set the background color to white or any other color */
     border-color: #e7e7e7; /* Border color */
 }
 
-.nav-blog .navbar-brand,
-.nav-blog .navbar-nav > li > a {
+#mainNav.navbar-default .navbar-brand,
+#mainNav.navbar-default .navbar-nav > li > a {
     color: #333; /* Set the text color to dark */
 }
 
-.nav-blog .navbar-brand:hover,
-.nav-blog .navbar-nav > li > a:hover {
+#mainNav.navbar-default .navbar-brand:hover,
+#mainNav.navbar-default .navbar-nav > li > a:hover {
     color: #555; /* Set the text color for hover state */
 }
 
